@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = '2023BCD0009-frontend'
+        DOCKER_IMAGE = '2023bcd0009-frontend'
         DOCKER_CREDS_ID = 'dockerhub-credentials'
         DOCKER_HUB_USER = 'sachingiri01'
         TAG = "${env.BUILD_NUMBER}"
